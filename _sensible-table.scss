@@ -1,0 +1,61 @@
+@include responsive('palm') {
+
+  .sensible-table-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-right: 1px solid #e8e8e8;
+
+    th, td {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .sensible-table-scrollable {
+      margin-left: 35%;
+      margin-bottom: 0;
+      border-bottom: 1px solid #e8e8e8;
+      overflow-x: auto;
+      overflow-y: hidden;
+
+      th, td {
+        &:first-child {
+          display: none;
+        }
+        &[colspan] {
+          display: table-cell;
+        }
+      }
+    }
+  }
+
+  .sensible-table-pinned {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 35%;
+    background: #fff;
+    border-right: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    table {
+      width: 100%;
+      margin-bottom: 20px;
+      border-right: none;
+      border-bottom: 1px solid #e8e8e8;
+      border-left: none;
+
+      th, td {
+        white-space: nowrap;
+      }
+      td {
+        display: none;
+      }
+      td:last-child {
+        border-bottom: 0;
+      }
+    }
+  }
+}
