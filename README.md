@@ -11,4 +11,4 @@ Unusage:
 
   myTable.destroy();
   
-Based on Responsive Tables by ZURB [https://github.com/zurb/responsive-tables]
+*Based on Responsive Tables by ZURB [https://github.com/zurb/responsive-tables]
