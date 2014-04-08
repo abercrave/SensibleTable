@@ -1,4 +1,4 @@
-@include responsive('palm') {
+@media (max-width: 640px) {
 
   .sensible-table-wrapper {
     position: relative;
