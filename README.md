@@ -1,7 +1,7 @@
 SensibleTable
 =============
 
-Sensible Table* "freezes" the first column of a table on small-screened devices while allowing the remaining columns to be scrolled left/right.
+Sensible Table* "freezes" the first column of a table on small-screened devices while allowing the remaining columns to be scrolled left/right. The breakpoint is set to 640px by default but that and its classnames are configurable via the options.
 
 Usage:
   
